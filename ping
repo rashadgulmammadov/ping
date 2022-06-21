@@ -1,0 +1,7 @@
+- hosts: 10.1.10.2  
+
+  become: yes  
+
+  tasks:
+   - ping:
+       crash: data
